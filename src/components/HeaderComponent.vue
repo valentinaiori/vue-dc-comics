@@ -28,8 +28,6 @@ export default {
 
 <style lang="scss" scoped>
     .contenitor{
-        max-width: 1200px;
-        margin: 0 auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -52,5 +50,6 @@ export default {
     img{
         margin-top: 20px;
         margin-bottom: 20px;
+        padding-right: 110px;
     }
 </style>
