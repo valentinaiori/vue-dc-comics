@@ -10,7 +10,7 @@
 
 <script>
 export default {
-    name:'SectionMainComponent'
+    name:'MainComponent'
 
 }
 </script>

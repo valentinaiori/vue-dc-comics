@@ -27,7 +27,7 @@
 
 <script>
 export default {
-    name: 'SecondSectionComponent'
+    name: 'ShopAreaComponent'
 }
 </script>
 
