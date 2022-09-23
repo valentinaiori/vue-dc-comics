@@ -33,7 +33,7 @@ export default {
 
 <style lang="scss" scoped>
     .blue-section{
-        background-color: blue;
+        background-color: #0282f9;
         padding: 50px 0px;
     }
 

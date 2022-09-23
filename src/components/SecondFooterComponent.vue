@@ -4,7 +4,7 @@
             <button>SIGN-UP NOW!</button>
         </div>
         <div class="icon-social">
-            <h3>FOLLOW US</h3>
+            <h4>FOLLOW US</h4>
             <img src="../assets/img/footer-facebook.png" alt="Facebook">
             <img src="../assets/img/footer-periscope.png" alt="Periscope">
             <img src="../assets/img/footer-pinterest.png" alt="Pinterest">
@@ -25,24 +25,29 @@ export default {
 
 <style lang="scss" scoped>
     .social-footer{
-        background-color: grey;
+        background-color: #303030;
         display: flex;
         align-items: center;
         padding: 30px 0px;
-
     }
 
     .button-foot button{
         color: white;
-        border: 1px solid blue;
+        border: 2px solid #0282f9;
         padding: 10px 15px;
-        background-color: grey;
+        background-color: #303030;
     }
     .icon-social{
         display: flex;
         align-items: center;
-        h3{
-            color: blue;
+        h4{
+            color: #0282f9;
+            padding-right: 15px;
+            margin-top: 3px;
         };
+
+        img{
+            padding-right: 15px;
+        }
     }
 </style>

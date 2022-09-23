@@ -1,6 +1,6 @@
 <template>
     <div class="footer">
-        <div class="list-link">
+            <div class="list-link">
             <div class="content-list-link">
                 <h3>DC COMICS</h3>
                 <ul>
@@ -61,17 +61,20 @@ export default {
 <style lang="scss" scoped>
     .footer{
         background-image: url(../assets/img/footer-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         display: flex;
         justify-content: space-around;
         color: white;
     }
 
-    .logo-footer img{
-        width: 70%;
+    .logo-footer{
+        overflow: hidden;
     }
 
     .list-link{
         display: flex;
+        
         li{
             list-style-type: none;
             padding: 5px 0px;
