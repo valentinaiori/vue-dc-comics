@@ -2,29 +2,31 @@
 
   <div id="app">
     <HeaderComponent/>
-    <SectionMainComponent/>
-    <SecondSectionComponent/>
+    <MainComponent/>
+    <ShopAreaComponent/>
     <FooterComponent/>
-    <SecondFooterComponent/>
+    <SocialComponent/>
 
   </div>
 </template>
 
 <script>
 import HeaderComponent from './components/HeaderComponent.vue';
-import SectionMainComponent from './components/SectionMainComponent.vue';
-import SecondSectionComponent from './components/SecondSectionCompotent.vue';
+import MainComponent from './components/MainComponent.vue';
+import ShopAreaComponent from './components/ShopAreaComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
-import SecondFooterComponent from './components/SecondFooterComponent.vue';
+import SocialComponent from './components/SocialCompontent.vue';
+
 
 export default {
   name: 'App',
   components: {
     HeaderComponent,
-    SectionMainComponent,
-    SecondSectionComponent,
+    MainComponent,
+    ShopAreaComponent,
     FooterComponent,
-    SecondFooterComponent,
+    SocialComponent,
+    
 }
 }
 </script>
