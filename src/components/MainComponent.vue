@@ -1,34 +1,56 @@
 <template>
     <div class="black">
-        <div class="text-section">
-            <p> --- Content goes here ---</p>
+        <div class="card-container">
+            <div class="card" v-for="card in cards" :key="card.thumb">
+                <img :src="card.thumb"/>
+                <p>{{card.series}}</p>
+            </div>
+
         </div>
-        
     </div>
   
 </template>
 
 <script>
 export default {
-    name:'MainComponent'
+    name:'MainComponent',
+
+    props: {
+        cards: Array,
+    }
 
 }
 </script>
 
 <style lang="scss" scoped>
+
     .black{
         background-color: black;
-        height: 100px;
     }
 
-    .text-section{
-        max-width: 1200px;
-        margin: 0 auto;
+    .card-container{
+        width: 1000px;
+        display: flex;
+        flex-wrap: wrap;
     }
 
-    p{
+    .card{
+        display: flex;
+        flex-direction: column;
+        
+        img{
+            width: 150px;
+            height: 250px;
+            padding-top: 50px;
+            padding-bottom: 30px;
+        }
+
+        p{
         color: white;
-        font-size: 1.5rem;
+        font-size: 0.8rem;
     }
+    }
+
+    
 
 </style>
