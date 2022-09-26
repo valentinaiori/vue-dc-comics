@@ -1,5 +1,8 @@
 <template>
     <div class="black">
+        <div class="jumbotron">
+            <img src="../assets/img/jumbotron.jpg" alt="jumbotron">
+        </div>
         <div class="card-container">
             <div class="card" v-for="card in cards" :key="card.thumb">
                 <img :src="card.thumb"/>
@@ -28,6 +31,12 @@ export default {
         background-color: black;
     }
 
+    .jumbotron img{
+        width: 100%;
+        height:200px;
+        position: static;
+    }
+
     .card-container{
         width: 1000px;
         display: flex;
@@ -37,7 +46,6 @@ export default {
 
     .card{
         flex-direction: column;
-        padding-right: 20px;
 
         img{
             width: 150px;

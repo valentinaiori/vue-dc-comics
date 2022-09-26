@@ -32,6 +32,8 @@ export default {
         justify-content: space-between;
         align-items: center;
 
+
+
     .list{
         display: flex;
         list-style-type: none;
