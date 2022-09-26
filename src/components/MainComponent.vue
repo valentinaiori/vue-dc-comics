@@ -32,15 +32,16 @@ export default {
         width: 1000px;
         display: flex;
         flex-wrap: wrap;
+        padding-bottom: 50px;
     }
 
     .card{
-        display: flex;
         flex-direction: column;
-        
+        padding-right: 20px;
+
         img{
             width: 150px;
-            height: 250px;
+            height: 270px;
             padding-top: 50px;
             padding-bottom: 30px;
         }
